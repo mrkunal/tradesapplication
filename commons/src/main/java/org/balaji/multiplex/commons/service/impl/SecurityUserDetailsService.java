@@ -37,7 +37,7 @@ public class SecurityUserDetailsService implements UserDetailsService {
 		
 		CustomUserDetails userDetails = new CustomUserDetails();
 		userDetails.setEmail("balh@blah.com");
-		userDetails.setRoles(new HashSet<Roles>(Arrays.asList(Roles.ROLE_OBS_ADMIN)));
+		userDetails.setRoles(new HashSet<Roles>(Arrays.asList(Roles.ROLE_TRADES_ADMIN)));
 		userDetails.setPassword("$2a$10$ewY7UY73lIAojvyK.tvMJAKOtSfkgKw8VU4Fl6whE6Yid6/fhBRoy2.");
 		userDetails.setUserId(2173);
 

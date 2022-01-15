@@ -10,7 +10,7 @@ import java.util.Optional;
 
 public interface UsersService extends BaseService<Users, UserCo, UserVo> {
 
-	Users getUserInstance(UserCo coObject, Users obsUsers);
+	Users getUserInstance(UserCo coObject, Users tradesUsers);
 	
 	Optional<Users> getCurrentUser();
 
