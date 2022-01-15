@@ -1,7 +1,16 @@
-# users-api
+# My Custom Microservice application
 
-**User-api** is used to manage the users
+**Application** is for creating the generic creation of microservices resources in a very generic way. It can create the following functionality by default of any resource:
 
+- Swagger
+- Common Endpoints
+  - fetch the resource
+  - creation of resource
+  - search of resource by pagination
+  - list of resource 
+- Auditing of resource
+- can Easily modify the autoconfigured behaviour
+- spring security of all endpoints with role based
 
 ## Requirements/Dependencies
 
